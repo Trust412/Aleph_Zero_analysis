@@ -1,0 +1,54 @@
+Address Information
+Address:
+Label: "address"
+Description: This is the unique identifier for an account on the Aleph Zero blockchain. It is used to send and receive tokens.
+Example: "eaefd9d9b42915bda608154f17bb03e407cbf244318a0499912c2fb1cd879b74"
+Balance:
+Label: "balance"
+Description: This indicates the total amount of tokens held by the account. It shows how much value the account has.
+Example: "5452849965414530802454"
+Lock:
+Label: "lock"
+Description: This represents the amount of tokens that are currently locked and cannot be used for transactions.
+Example: "0" (indicating no tokens are locked)
+Balance Lock:
+Label: "balance_lock"
+Description: Similar to "lock," this indicates any additional restrictions on the balance that prevent it from being used.
+Example: "0" (indicating no balance is locked)
+Is EVM Contract:
+Label: "is_evm_contract"
+Description: A boolean value indicating whether this address is an Ethereum Virtual Machine (EVM) contract address. If true, it means the address is a smart contract; if false, it is a regular account.
+Example: false
+Account Display Address:
+Label: "account_display"
+Description: This provides a more user-friendly representation of the account address, often formatted for easier reading or display in user interfaces.
+Example:
+json
+"account_display": {
+    "address": "5HNkK6XZAiAbY4BaetnzZ9HipcU1GHm2ubScpLvq4kQMv95F"
+}
+
+Substrate Account:
+Label: "substrate_account"
+Description: This field typically indicates whether there is a corresponding Substrate account associated with this address. In this case, it is null, meaning there is no associated Substrate account.
+Example: null
+EVM Account:
+Label: "evm_account"
+Description: This field would contain information about an EVM account if it exists. An empty string indicates that there is no associated EVM account.
+Example: ""
+Registrar Info:
+Label: "registrar_info"
+Description: This field would provide details about the registrar of the account, if applicable. In this case, it is null.
+Example: null
+Count Extrinsic:
+Label: "count_extrinsic"
+Description: This indicates how many extrinsic transactions (transactions initiated by users) have been made by this account.
+Example: 0 (indicating no transactions have been made)
+NFT Amount:
+Label: "nft_amount"
+Description: This indicates how many non-fungible tokens (NFTs) are held by this account.
+Example: "0" (indicating no NFTs are held)
+Extra:
+Label: "extra"
+Description: This field can hold additional information or metadata about the account but is null in this case, indicating no extra data is available.
+Example: null
