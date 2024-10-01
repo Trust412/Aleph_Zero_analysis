@@ -1,0 +1,10 @@
+https://app.common.fi/pools
+https://app.apidog.com/project/
+https://docs.common.fi/
+https://alephzero.org/events
+https://support.subscan.io/
+https://alephzero.subscan.io/
+https://sub.id/
+https://test.common.fi/pools
+https://faucet.test.azero.dev/
+https://common.fi/risk-notice
