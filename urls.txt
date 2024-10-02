@@ -8,3 +8,7 @@ https://sub.id/
 https://test.common.fi/pools
 https://faucet.test.azero.dev/
 https://common.fi/risk-notice
+https://app.tokenguard.io/crypto-growth
+https://azero.live/
+https://azeroscan.net/#/common/5C6s2qJAG5dCmPvR9WyKAVL6vJRDS9BjMwbrqwXGCsPiFViF
+https://dashboard.alephzero.org/#/overview
